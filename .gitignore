@@ -26,7 +26,6 @@ wandb/
 *.onnx
 *.engine
 *.tflite
-*.pt
 
 # Dataset artifacts and caches
 *.cache
