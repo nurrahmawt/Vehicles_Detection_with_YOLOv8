@@ -24,6 +24,10 @@ This project focuses on building an end-to-end object detection pipeline, includ
 
 The model is fine-tuned from YOLOv8n pretrained weights.
 
+## Detection Preview
+
+![Vehicle Detection Preview](demo/detection-preview.png)
+
 ## Current Model Performance
 
 The model still has room for improvement.
