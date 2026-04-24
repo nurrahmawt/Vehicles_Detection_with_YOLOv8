@@ -76,6 +76,11 @@ Your `dataset.yaml` currently uses:
 - `test: ../test/images`
 - `nc: 5`
 
+## Data Quality Note
+
+The dataset has class imbalance, meaning some vehicle classes appear much more frequently than others.
+This imbalance can bias training and reduce detection performance on underrepresented classes.
+
 ## Notes
 
 For better accuracy and robustness, consider:
