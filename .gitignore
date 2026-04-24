@@ -1,0 +1,35 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime artifacts
+*.log
+
+# ML experiment outputs
+runs/
+mlflow/
+wandb/
+
+# Trained model weights and checkpoints
+*.onnx
+*.engine
+*.tflite
+*.pt
+
+# Dataset artifacts and caches
+*.cache
+train/
+valid/
+test/
