@@ -3,7 +3,7 @@ import cv2
 
 model = YOLO("models/best.pt")
 
-cap = cv2.VideoCapture("demo/video_traffic.mp4")  
+cap = cv2.VideoCapture("video_traffic.mp4")  
 
 while cap.isOpened():
     ret, frame = cap.read()
